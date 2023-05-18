@@ -37,8 +37,8 @@ class Contact extends Component {
 
     }
     handleSubmit(event){
-        console.log("Current tste" + JSON.stringify(this.state))
-        alert("Current tste" + JSON.stringify(this.state));
+        console.log("Current state" + JSON.stringify(this.state))
+        alert("Current state" + JSON.stringify(this.state));
         event.preventDefault();
     }
 
