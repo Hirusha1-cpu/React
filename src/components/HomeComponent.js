@@ -8,7 +8,7 @@ function RenderCard({item}){
       }
     return(
         <Card>
-            {/* <CardImg top width='100%' src={item.image} alt={item.name}/> */}
+            <CardImg top width='100%' src={item.image} alt={item.name}/>
             {/* {item.image && <CardImg top width="100%" src={item.image} alt={item.name} />} */}
             <CardBody>
                 <CardTitle>
